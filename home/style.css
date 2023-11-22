@@ -126,14 +126,18 @@ a{
     margin-left: 37.2rem;
     margin-top: 3rem;
     display: inline-block;
-    
-    
-
 }
 
 #pantalla-dividida{
     display: flex;
 }
+
+.signup{
+    list-style: none;
+    text-decoration: none;
+
+}
+
 
 .emp{
     width: 45%;
@@ -173,7 +177,7 @@ a{
 
 .iconos{
     display: flex;
-    margin-left: 36.3rem;
+    margin-left: 36.8rem;
     margin-top: 2rem;
     padding: 2rem;
     justify-content: space-between;
