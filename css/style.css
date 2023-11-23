@@ -349,11 +349,117 @@ a{
 }
 
 
-@media only screen and (min-width:320px) and (max-width:768px){
-	.container-card{
-		flex-wrap: wrap;
-	}
-	.card{
-		margin: 15px;
-	}
+@media only screen and (max-width: 480px) {
+    /* Estilos para dispositivos móviles (hasta 480px de ancho) */
+    .nav{   
+        display: flex;
+        padding: 1.8rem;
+        justify-content: space-between;
+        margin: 0.5rem;
+        margin-right: -10rem;
+        background-color: #6D6A73;
+    }
+
+    .nav_bottp{
+        margin-left: -1.5rem;
+    }
+
+    .nav_item{
+        display: flex;
+        margin-left: 1.9rem;
+    }
+
+    .t1 {
+        font-size: 24px; /* Reducir tamaño de fuente */
+        margin-left: 5.5rem; /* Ajustar el margen izquierdo */
+        margin-top: 2rem; /* Ajustar el margen superior */
+    }
+
+    .parrafo {
+        font-size: 14px; /* Reducir tamaño de fuente */
+        margin-left: 4rem; /* Ajustar el margen izquierdo */
+        margin-top: 2rem; /* Ajustar el margen superior */
+    }
+    
+    .pabi{
+        text-align: center;
+
+    }
+
+    .bottom {
+        width: 50%; /* Ancho completo para el botón */
+        margin-left: 13rem;/* Centrar el botón */
+    }
+
+    #pantalla-dividida {
+        flex-direction: column; /* Cambiar a disposición de columna */
+        margin-top: 2rem; /* Ajustar el margen superior */
+    }
+
+    .informacion{
+        margin: auto;
+        display: flex;
+        margin-left: 17rem;
+    }
+
+    .texto{
+        margin-left: 3.5rem;
+    }
+
+    .registro{
+        display: block;
+    }
+
+    .emp {
+        width: 100%; /* Ancho completo */
+        margin-top: 0.1rem;
+        display: flex;
+        margin-left: 5rem; /* Ajustar el margen izquierdo */
+        text-align: justify; /* Alinear texto justificado */
+    }
+
+    .imgi {
+        width: 50%; /* Ancho completo para la imagen */
+        display: flex;
+        margin-left: 13rem;
+        margin-top: 3rem;
+    }
+
+    .iconos {
+        margin-left: 0.5rem; /* Ajustar el margen izquierdo */
+        margin-top: 1rem; /* Ajustar el margen superior */
+        justify-content: space-around; /* Distribuir espacios alrededor */
+    }
+
+    .ticom{
+        margin:auto;
+        display: flex;
+        margin-left: 12rem;
+    }
+
+    .contenido-card{
+        margin-left: 2.8rem;
+        padding: 1rem;
+        align-items: center;
+    }
+
+    .nc{
+        display: flex;
+        margin-left: 12rem;
+
+    }
+
+    .title-cards {
+        padding: 2px; /* Reducir el relleno */
+        margin-top: 1rem; /* Ajustar el margen superior */
+        font-size: 20px; /* Reducir tamaño de fuente */
+        border-radius: 2px;
+    }
+
+    .area-comentar{
+        margin-left: 7rem;
+        width: 80%;
+    }
+
 }
+
