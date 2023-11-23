@@ -50,14 +50,6 @@ a{
     font-size: 25px;
 }
 
-.nav_menu{
-    display: flex;
-    color:inherit;
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    margin-top: 4px;
-}
 
 .nav_item{
     margin-left: 55px;
@@ -66,20 +58,23 @@ a{
 .nav_link{
     list-style: none;
     text-decoration: none;
+    display: flex;
+    color:inherit;
+    color: white;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-top: 4px;
 
 }
 
-.nav_item_is{
-    border-radius: 8px;
-    text-align: center;
-    color: #6D6A73;
+.login{
     background-color: #6D6A73;
-    border-style:groove;
-    height: 35px;
-    width: 115px;
-    border-color: aliceblue;
-    margin-left: 2rem;
-    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    border: 2px black;
+    font-weight: 500;
+    border-radius: 10px;
+    border-bottom: 2px;
 }
 
 .nav_list{
@@ -96,7 +91,7 @@ a{
     text-align: center;
     display: inline-block;
     margin-left: 21.5rem;
-    margin-top: 3.5rem;
+    margin-top: 4rem;
 }
 
 .parrafo{
@@ -106,7 +101,7 @@ a{
     color: grey;
     text-align: center;
     display: inline-block;
-    margin-left: 22rem;
+    margin-left: 21.6rem;
     margin-top: 1.5rem;
 }
 
